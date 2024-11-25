@@ -15,14 +15,6 @@ Este proyecto implementa un entorno de trabajo en Google Colab para realizar an�
 - Construir modelos predictivos con MLlib.
 - Evaluar el rendimiento de los modelos generados.
 
-## Requisitos
-
-- Google Colab
-- PySpark
-- Librerías adicionales:
-  - pandas
-  - matplotlib
-
 ## Estructura del Proyecto
 
 1. **Configuración del Entorno**: Preparación del entorno en Google Colab para ejecutar PySpark.
@@ -36,21 +28,3 @@ Este proyecto implementa un entorno de trabajo en Google Colab para realizar an�
 - Un modelo de aprendizaje automático entrenado y evaluado sobre grandes volúmenes de datos.
 - Visualizaciones claras de métricas de rendimiento.
 
-## Cómo Ejecutar el Proyecto
-
-1. Clona o descarga el proyecto desde este repositorio.
-2. Sube el archivo del notebook a Google Colab.
-3. Ejecuta las celdas del notebook en orden para configurar el entorno, cargar los datos y generar el modelo.
-
-## Referencias
-
-- [Documentación de PySpark](https://spark.apache.org/docs/latest/api/python/)
-- [Guía de MLlib](https://spark.apache.org/mllib/)
-"""
-
-# Guardar el README.md en el sistema
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as file:
-    file.write(readme_content)
-
-readme_path  # Ruta del archivo generado
